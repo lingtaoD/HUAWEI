@@ -1,0 +1,373 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	color: #333;
+	font-family: sans-serif,Helvetica,Arial,'Lucida Grande',Verdana;
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+#box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.logo{
+	width: 100%;
+	height: 1.15625rem;
+	position: relative;
+}
+header{
+	width: 100%;
+	position: fixed;
+	background: white;
+	z-index: 222;
+}
+header>div{
+	float: left;
+}
+.left a{
+	display: block;
+	height: 1.15625rem;
+	width: 2.25rem;
+}
+.left a img{
+	width: 100%;
+	height: 100%;
+}
+.center{
+	width:5.53125rem;
+	height: 1.15625rem;
+}
+.center input{
+	width: 4.6875rem;
+	height: 0.8125rem;
+	border: none;
+	background: #f7f7f7;
+	border-radius: 0.4rem;
+	margin: 0.2rem 0.343rem;
+	padding-left: 0.3125rem;
+}
+.right{
+	width: 2.21rem;
+	height:1.15625rem; 
+}
+.right span{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	vertical-align: top;
+}
+.right span:first-of-type{
+	background: url(../img/icon_shoppingCart.png) no-repeat left center;
+	background-size: 60% auto;
+}
+.right span:last-of-type{
+	text-align: left;
+	line-height:1.2rem;
+}
+
+
+
+
+.swiper-container {
+        width: 100%;
+      height: 4.22rem;
+        
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        width: 100%;
+    }
+    .swiper-slide img{
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-container .swiper-pagination{
+        text-align: right;
+    }
+
+
+
+
+
+
+
+// .slider{
+// 	position: relative;
+// }
+// .slider_content{
+// 	width: 100%;
+// 	height: 4.22rem;
+// 	position: relative;
+// 	overflow: hidden;
+// }
+// .slider_content ul {
+// 	width: 500%;
+// 	height: 4.22rem;
+// 	position: absolute;
+// }
+// .slider_content ul li{
+// 	width: 10rem;
+// 	height: 4.22rem;
+// 	float: left;
+// }
+// .slider_content ul li a {
+// 	display: block;
+// 	width: 10rem;
+// 	height: 4.22rem;
+// 	background:url(../img/l1.jpg) no-repeat;
+// 	background-size: 100% auto;
+// }
+// .xiabiao{
+// 	position: absolute;
+// 	width: 2rem;
+// 	height: 0.3rem;
+// 	bottom: 0.3rem;
+// 	right: 0.2rem;
+// }
+// .xiabiao span{
+// 	width: 0.2rem;
+// 	height: 0.2rem;
+// 	border-radius: 50%;
+// 	display: inline-block;
+// 	background:#fff;
+// 	opacity: .3;
+// }
+// .xiabiao span:first-of-type{
+// 	opacity: 1;
+// }
+.link{
+	border-bottom: 1px solid #f7f7f7;
+}
+.link ul{
+	width: 100%;
+	height: 2.5rem;
+}
+.link ul li{
+	width: 20%;
+	height: 2.27rem;
+	float: left;
+}
+.link ul li a{
+	width: 1.844rem;
+	height: 1.844rem;
+	padding: 0.2rem 0.16rem;
+	display: block;
+	text-align: center;
+}
+.link ul li a span{
+	display: block;
+	width: 1.1rem;
+	height: 1.1rem;
+	background:url(../img/4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.link ul li a p{
+	padding: 0.2rem 0;
+}
+.shouji{
+	width: 100%;
+	height: 18.75rem;
+}
+.header1{
+	height: 0.8125rem;
+	text-align: center;
+	line-height: 0.8125rem;
+	background: #f7f7f7;
+}
+.header1 .line_sp{
+	display: inline-block;
+	height: 1px;
+	width: 1rem;
+	background: #dedede;
+	vertical-align: middle;
+}
+.header1 .name_sp{
+	color: #888;
+	margin:0 0.2rem;
+}
+.content ul{
+	height: 18rem;
+}
+.content ul li{
+	width: 33.3%;
+	height: 25%;
+	float: left;
+	box-sizing: border-box;
+	border-left: 1px solid #f7f7f7;
+	border-bottom: 1px solid #f7f7f7;
+}
+.content ul li a{
+	display: block;
+	width: 3.02rem;
+	height: 3.968rem;
+	padding: 0.25rem 0.15625rem;
+	text-align: center;
+}
+.pic1{
+	width: 1.875rem;
+	height:1.875rem;
+	padding: 0.3125rem 0.3125rem;
+	background: url(../img/7.jpg) no-repeat center center;
+	background-size: 80% 80%;
+}
+.name{
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    line-height: 1.34;
+}
+.promotion{
+	text-overflow: ellipsis;
+    white-space: nowrap;
+	color: #888;
+	padding-top:0.1rem;
+}
+.price1{
+	font-weight: bold;
+	color: #ca151e;
+	padding-top: 0.1rem;
+}
+.pingban{
+	width: 100%;
+	height: 23.4375rem;
+	
+}
+.pingban_logo{
+	height: 2.21875rem;
+	background: url(../img/l8.jpg);
+	background-size: 100% 100%;
+}
+.pingban_content ul{
+	height: 20.4rem;
+}
+.pingban_content ul li{
+	width: 50%;
+	height: 5.125rem;
+	box-sizing: border-box;
+	border-left: 1px solid #f7f7f7;
+	border-bottom: 1px solid #f7f7f7;
+	float: left;
+}
+.pingban_content ul li a{
+	display: block;
+	width: 4.0625rem;
+	height: 4.6875rem;
+	padding: 0.24rem 0.48875rem;
+	text-align: center;
+}
+.pic2{
+	width: 2.65625rem;
+	height:  2.65625rem;
+	padding: 0.25rem .73rem;
+	background: url(../img/b1.jpg) no-repeat center center;
+	background-size: 70% 90%;
+	position: relative;
+}
+.pic2 span{
+	position: absolute;
+	top:0;
+	left: 0;
+	display: block;
+	width: 0.6875rem;
+	height: 0.6875rem;
+	background: url(../img/b1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.actionbar{
+	width: 100%;
+	height: 1.5625rem;
+	position: fixed;
+	bottom: 0;
+	background: white;
+	border-top: 1px solid #eee;
+}
+.actionbar ul{
+	height: 1.5625rem;
+}
+.actionbar ul li{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.actionbar ul li a{
+	display: block;
+	height:1.40625rem;
+	padding-top: 0.15625rem;
+	width: 100%;
+	text-align:center;
+}
+.actionbar ul li a span{
+	display: block;
+	width: 0.6875rem;
+	height: 0.6875rem;
+	background: url(../img/icon55.png) no-repeat 0 0rem;
+	background-size: auto 1.5rem;
+}
+.actionbar ul li:nth-of-type(2) a span{
+	background: url(../img/icon55.png) no-repeat -0.8125rem 0;
+	background-size: auto 1.5rem;
+}
+.actionbar ul li:nth-of-type(3) a span{
+	background: url(../img/icon55.png) no-repeat -1.4375rem 0;
+	background-size: auto 1.5rem;
+}
+.actionbar ul li:nth-of-type(4) a span{
+	background: url(../img/icon55.png) no-repeat -2.25rem 0;
+	background-size: auto 1.5rem;
+}
+.actionbar ul li:nth-of-type(5) a span{
+	background: url(../img/icon55.png) no-repeat -3rem 0;
+	background-size: auto 1.5rem;
+}
+.actionbar ul li a p{
+	height: 0.75rem;
+	line-height: 0.75rem;
+}
+
+.go_top{
+	position: fixed;
+	width: 1.15625rem;
+	height: 1.15625rem;
+	left: 8.4375rem;
+	bottom: 1.5625rem;
+}
+.go_top a{
+	display: block;
+	width: 1.15625rem;
+	height: 1.15625rem;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.go_top a img{
+	width: 100%;
+	height: 100%;
+}
+.hr{
+	height: 1.4825rem;
+}

@@ -1,0 +1,31 @@
+.hot_area{
+	width: 100%;
+	height: 3rem;
+	background: #f7f7f7;
+	border-top: 1px solid #f7f7f7;
+}
+.hot_content{
+	height: 2.5rem;
+	margin-top: 0.22rem;
+}
+.hot_content ul{
+	height: 100%;
+	width: 100%;
+}
+.hot_content ul li{
+	height: 100%;
+	width: 4.65625rem;
+	float: left;
+	margin:0 0.1rem 0 0.2rem;
+}
+.hot_content ul li img{
+	width: 100%;
+	height: 100%;
+}
+.actionbar ul li:nth-of-type(2) a span{
+	background: url(../img/icon55.png) no-repeat -0.8125rem -.75rem;
+	background-size: auto 1.5rem;
+}
+.actionbar ul li:nth-of-type(2) a p{
+	color: red;
+}

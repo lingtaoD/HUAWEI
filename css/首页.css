@@ -1,0 +1,82 @@
+
+.channel{
+	
+	border-bottom: 0.25rem solid #f7f7f7;
+}
+.channel ul{
+	width: 100%;
+	height: 7.4375rem;
+}
+.channel ul li {
+	width: 25%;
+	height: 50%;
+	float: left;
+	box-sizing: border-box;
+	border-left: 1px solid #f7f7f7;
+	border-bottom: 1px solid #f7f7f7;
+}
+.channel ul li a{
+	display: block;
+	padding:0.25rem 0.1875rem 0;
+	text-align: center;
+}
+.name{
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    line-height: 1.34;
+}
+.price{
+	color: #bbb;
+	line-height: 1.34;
+}
+.pic{
+	height: 2.46rem;
+	width: 2.1875rem;
+	background: url(../img/3.jpg) no-repeat center;
+	background-size: 80% 80%;
+}
+.gonggao{
+	height: 1.125rem;
+}
+.gonggao>div{
+	float: left;
+}
+.gonggao_left{
+	width:30%;
+	height: 1.125rem;
+}
+.gonggao_left span{
+	font-weight: bolder;
+	color: black;
+	width: 1.5rem;
+	height: 50%;
+	text-align: center;
+	margin-top: 0.3rem;
+	line-height: 1.5;
+	vertical-align: top;
+	display: inline-block;
+	border-right: 1px solid gray;
+}
+.gonggao_left i{
+	display: inline-block;
+	width: 0.7rem;
+	height: 0.66rem;
+	background:url(../img/icon_notice.png) no-repeat center center;
+	background-size: 80% 80%;
+	margin: 0.25rem 0.3rem;
+}
+.gonggao_right{
+	width: 70%;
+	height: 1.125rem;
+	text-align: left;
+	line-height: 1.125rem;
+}
+.actionbar ul li:nth-of-type(1) a span{
+	background: url(../img/icon55.png) no-repeat 0 -0.75rem;
+	background-size: auto 1.5rem;
+}
+.actionbar ul li:first-of-type a p{
+	color: red;
+}
+
